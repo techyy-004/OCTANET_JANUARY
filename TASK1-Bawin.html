@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1f1f1f;
+            color: #fff;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        
+
+        section {
+            padding: 2em;
+        }
+
+        h1, h2 {
+            color: #3498db;
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #3498db;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #2980b9;
+        }
+
+        .featured-games {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .game-card {
+            max-width: 300px;
+            background-color: #2c3e50;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .game-image {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .game-title {
+            color: #fff;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #2c3e50;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #3498db;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: #fff;
+            color: #333;
+        }
+
+        input[type="submit"] {
+            background-color: #3498db;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Game Hub</h1>
+        <p>EXPLORE,PLAY,ENJOY!</p>
+    </header>
+
+    <section>
+        <h2>Featured Games</h2>
+        <div class="featured-games">
+            <div class="game-card">
+                <img src="C:\Users\divya\Downloads\sm.jpg" alt="Game 1" class="game-image">
+                <h3 class="game-title">Scary Mansion</h3>
+                <p>Play a crazy survival horror game and enjoy the terrifying slasher atmosphere!
+                    A hide-and-seek horror game with chilling plot twists awaits you!
+                    
+                    Scary Mansion is an exciting thriller with complex riddles and a maniac's sinister house. Remember all horror films about best serial killer Jason and Friday the 13th and feel like the main character of a scary story game.
+                    
+                    The evil genius Dr. Jason Crow found the next victim, the unlucky postman Freddy. Today you will try on his sad role and experience heartbreaking terror. Overcome your fear, hide, run, solve puzzles, defuse traps and finally escape from the house of violence and torture. The survival horror game has begun! Join the creepy quest and try to escape the room first.
+                    
+                    Deadly silence and a dangerous murderer create an atmosphere of a true nightmare. Run from the psycho-killer and find your way out. Speed up and save yourself from the horror butcher! Ahead is a scary adventure escape from a maniac mansion. Pass the horror quest to the end and survive in this deadly fight. Move unnoticed and be careful not to fall into the trap!
+                    
+                    Enjoy all the components of classic horror. Transfer to the horror world and give yourself unforgettable impressions. Stay focused to unlock all floors and explorer all rooms. Get to the most sinister edges of the mansion and enjoy the scary game!
+                    </p>
+            </div>
+            <div class="game-card">
+                <img src="C:\Users\divya\Downloads\PIC.jpg" alt="Game 2" class="game-image">
+                <h3 class="game-title">Off Road Adventure</h3>
+                <p>Off Road is an addictive ultimate mud truck driving game and realistic car racing simulator. Are you ready to start the race in rugged environments and test your driving skills?
+
+                    Stunning detailed graphics, a huge selection of 4x4 trucks, real driving physics, endless upgrades & customization, and various offroad racing challenges! Get the most realistic off-road racing experience right now!
+                    
+                    Off Road racing simulator features:
+                    - Gorgeous graphics & realistic car driving physics .Various 4x4 trucks & vehicles with different driving characteristics .Endless tuning & car customization. Real cars & trucks sounds Simple & convenient in-game map. Dozens of offroad racing challenges & time trials. Various extreme obstacles in the best 4x4 off road games traditions
+                    
+                    Off Road is a driving open road truck simulator for fans of Snow Runner, 4x4 Mania, Offroad Outlaws, Mud Runner, and other off the road mudding games. Endless dirt racing awaits you in this epic off-roading car simulator truck game!
+                    
+                    Complete all the challenges and pass races and become a real professional offroading mud truck driver. Do you like off-road diesel truck games? Then download the Off Road drive rally simulator and embark on a unique driving extreme terrain offroad adventure!</p>
+            </div>
+            <!-- Add more game cards as needed -->
+        </div>
+    </section>
+
+    <section>
+        <h2>Join the Gaming Community</h2>
+        <p>Stay updated with the latest games and news. Join our community now!</p>
+        <a href="#signup-form" class="cta-button">Join Now</a>
+    </section>
+
+    <section id="signup-form">
+        <h2>Sign Up for Updates</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2024 Game Hub. All rights reserved.
+    </footer>
+
+</body>
+</html>
